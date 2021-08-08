@@ -1,0 +1,17 @@
+
+<h3 style="margin-left: 15px">Current weather data</h3>
+
+<div id="divWeatherMain">
+  <div class="weatherWidgetRow cloudDiv">
+    <i class="fas fa-cloud fa-3x cloud"></i>
+  </div>
+  <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{currentWeather.main.temp}}°</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;margin-top: 15px">{{currentWeather.main.temp_min}}° / {{currentWeather.main.temp_max}}°</div>
+  <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{currentWeather.name}}</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;margin-top: 15px ">Ветер: {{currentWeather.wind.speed}}м/с</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;margin-top: 15px">Влажность: {{currentWeather.main.humidity}}%</div>
+</div>
+
+
+
+

@@ -1,0 +1,10 @@
+<div id="divWeatherMain">
+  <h3 style="padding: 5px">{{ fiveDaysWeather.dt_txt }}</h3>
+  <div class="weatherWidgetRow cloudDiv">
+    <i class="fas fa-cloud fa-3x cloud"></i>
+  </div>
+  <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{fiveDaysWeather.main.temp}}°</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;margin-top: 15px">{{fiveDaysWeather.main.temp_min}}° / {{fiveDaysWeather.main.temp_max}}°</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;margin-top: 15px ">Ветер: {{fiveDaysWeather.wind.speed}}м/с</div>
+  <div class="weatherWidgetRow" style="font-size: 12px;margin-top: 15px">Влажность: {{fiveDaysWeather.main.humidity}}%</div>
+</div>
